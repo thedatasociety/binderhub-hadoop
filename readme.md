@@ -21,7 +21,9 @@
 
 # binderhub-hadoop
 
-A minimal repository for running A[pache™ Hadoop®](http://hadoop.apache.org/) on [binderhub](https://github.com/jupyterhub/binderhub) instances.
+A minimal repository for running [Apache™ Hadoop®](http://hadoop.apache.org/) on [binderhub](https://github.com/jupyterhub/binderhub) instances. 
+
+The tutorial for downloading, starting it in pseudo-distributed mode, running a map-reduce job, etc. is presented in the [running-hadoop.ipynb](./running-hadoop.ipynb). For a better visualization of the notebook please see the [running-hadoop.ipynb](https://nbviewer.jupyter.org/github/thedatasociety/binderhub-hadoop/blob/master/running-hadoop.ipynb) via [nbviewer](https://nbviewer.jupyter.org).
 
 ## Table of contents
 
