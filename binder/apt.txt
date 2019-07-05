@@ -1,0 +1,7 @@
+ssh
+rsync
+htop
+vim
+curl
+wget
+openjdk-8-jdk
