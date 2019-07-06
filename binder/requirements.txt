@@ -1,1 +1,2 @@
 jupyterlab
+jupyter-server-proxy
