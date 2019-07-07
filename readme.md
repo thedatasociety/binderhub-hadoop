@@ -1,4 +1,4 @@
-<!-- ds header --> 
+<!-- ds header -->
 <div align="center">
  <img src="https://avatars3.githubusercontent.com/u/47368510?s=200&v=4" width="100px">
  <h3>The Data Science and Engineering Society </h3>
