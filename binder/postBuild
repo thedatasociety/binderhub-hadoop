@@ -12,3 +12,6 @@ chmod 600 .ssh/etc/ssh/* -R
 
 # set env var for java
 echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " > .bashrc
+
+# hadoop 3.1.2
+echo "ssh" > /etc/pdsh/rcmd_default
