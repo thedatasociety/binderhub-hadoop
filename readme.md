@@ -30,8 +30,8 @@ The tutorial for downloading, starting it in pseudo-distributed mode, running a 
 <!-- MarkdownTOC autolink=true -->
 
 - [Launching this repository on a binderhub instance now](#launching-this-repository-on-a-binderhub-instance-now)
-  - [Jupyter](#jupyter)
   - [JupyterLab](#jupyterlab)
+  - [Jupyter](#jupyter)
 - [Launching this repository locally using repo2docker](#launching-this-repository-locally-using-repo2docker)
 - [Contributing](#contributing)
 - [License](#license)
@@ -49,6 +49,16 @@ The tutorial for downloading, starting it in pseudo-distributed mode, running a 
 
 The list below provides the badges and the hyperlinks for launching Jupyter/Jupyter Lab in one of the binderhub instances.
     
+#### JupyterLab 
+  
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
+
+  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
+
+  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
+
+  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
+
 
 #### Jupyter 
   
@@ -60,16 +70,6 @@ The list below provides the badges and the hyperlinks for launching Jupyter/Jupy
 
   - [![launch @ pangeo.org][badge-jupyter-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=tree)
 
-
-#### JupyterLab 
-  
-  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
-
-  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
-
-  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
-
-  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/binderhub-hadoop/master?urlpath=lab)
          
 ### Launching this repository locally using [repo2docker](https://github.com/jupyter/repo2docker)
 
