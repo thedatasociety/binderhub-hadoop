@@ -1,3 +1,17 @@
+#########################
+# jupyterlab extensions #
+#########################
+
+# Table of contents Jupyter Lab Extension
+jupyter labextension install @jupyterlab/toc --no-build 
+
+# building jupyterlab extensions
+jupyter lab build --dev
+
+
+###########################
+# hadoop related commands #
+###########################
 
 # creating ssh-related folders
 mkdir .ssh/etc/ssh -p
@@ -11,4 +25,8 @@ ssh-keygen -A -f .ssh
 chmod 600 .ssh/etc/ssh/* -R
 
 # set env var for java
-echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " > .bashrc
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " >> ~/.bashrc
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " >> ~/.profile
+
+# hadoop 3.*.*
+echo "export PDSH_RCMD_TYPE=ssh" >> ~/.bashrc
