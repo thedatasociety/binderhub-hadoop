@@ -3,10 +3,10 @@
 #########################
 
 # Table of contents Jupyter Lab Extension
-jupyter labextension install @jupyterlab/toc --no-build 
+#jupyter labextension install @jupyterlab/toc --no-build 
 
 # building jupyterlab extensions
-jupyter lab build --dev
+#jupyter lab build --dev
 
 
 
@@ -25,8 +25,9 @@ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa  &&   cat ~/.ssh/id_rsa.pub >> ~/.ssh/a
 ssh-keygen -A -f .ssh 
 chmod 600 .ssh/etc/ssh/* -R
 
-# set env var for java
-echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " > .bashrc
-
 # hadoop 3.1.2
-echo "export PDSH_RCMD_TYPE=ssh" > .bashrc
+echo "export PDSH_RCMD_TYPE=ssh" >> .bashrc
+
+# set env var for java
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " >> .bashrc
+
