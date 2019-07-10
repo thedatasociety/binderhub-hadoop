@@ -4,17 +4,20 @@
  <h3>The Data Science and Engineering Society </h3>
  <hr/>
  <a href="https://github.com/thedatasociety" target="_blank">
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-hadoop/master/resources/images/github-icon.png" width="30px" alt="github organization">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/github-icon.png" width="30px" alt="github organization">
  </a>
  <a href="https://hub.docker.com/search?q=thedatasociety&type=image"  target="_blank" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-hadoop/master/resources/images/docker-icon.png" width="30px" alt="our docker hub organization">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/docker-icon.png" width="30px" alt="our docker hub organization">
  </a>
  <a href="https://thedatasociety.slack.com" target="_blank" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-hadoop/master/resources/images/slack-icon.png" width="30px" alt="our slack">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/slack-icon.png" width="30px" alt="our slack">
  </a>
  <a href="https://twitter.com/thedatasociety" target="_blank">
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-hadoop/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
  </a>
+ <a href="https://quiltdata.com/package/thedatasociety/" target="_blank">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/quilt-icon.png" width="30px" alt="quilt packages">
+ </a> 
 </div>
 <!-- /ds header -->
 
